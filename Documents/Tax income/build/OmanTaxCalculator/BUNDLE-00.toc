@@ -1,0 +1,3 @@
+([('OmanTaxCalculator',
+   '/Users/fahadalmaashani/Documents/Tax income/dist/OmanTaxCalculator',
+   'EXECUTABLE')],)
