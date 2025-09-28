@@ -1,4 +1,3 @@
-"""Tests for configuration management"""
 import unittest
 from src.utils.config import AppConfig
 
