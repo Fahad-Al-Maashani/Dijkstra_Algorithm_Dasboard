@@ -1,0 +1,20 @@
+# Compiled files
+*.o
+*.out
+wifi_buffer_sim
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.log
+*.tmp
