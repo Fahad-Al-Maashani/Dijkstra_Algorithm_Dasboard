@@ -1,3 +1,0 @@
-# Reports
-
-Generate tax reports.

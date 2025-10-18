@@ -1,3 +1,0 @@
-# Deductions
-
-Manage tax deductions.
