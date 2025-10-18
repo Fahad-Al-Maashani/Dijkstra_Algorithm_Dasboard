@@ -29,10 +29,20 @@ No external dependencies are needed for core functionality.
 ## 🚀 Quick Start
 
 ```bash
+git clone https://github.com/Fahad-Al-Maashani/Dijkstra_Algorithm_Dashboard.git
+cd Dijkstra_Algorithm_Dashboard
 python main.py
 ```
 
 The simulator boots into the **Cyber Grid** level. Choose start/goal nodes (or apply a scenario), select an algorithm, and hit **Run Simulation**.
+
+## 🎬 Demo & Animations
+
+| Dijkstra Auto-Run | Editing & Undo | Export GIF Preview |
+|-------------------|---------------|--------------------|
+| ![Dijkstra run](assets/demo-dijkstra.gif) | ![Graph editing](assets/demo-edit.gif) | ![GIF export](assets/demo-export.gif) |
+
+> No GIFs yet? Generate them from the app via **Export GIF** (install `pip install pillow`) and drop the files into `assets/`.
 
 ### Recommended Workflow
 
@@ -89,25 +99,48 @@ Use **Export JSON** to archive these details programmatically, or **Export GIF**
 
 ---
 
+## 🐛 Bug Reports
+
+1. **Search existing issues** to avoid duplicates.
+2. Open a new issue with:
+   - Clear reproduction steps (screenshots or GIFs help).
+   - Expected vs. actual behaviour.
+   - Environment details (OS, Python version, optional dependencies).
+3. Add relevant labels (`bug`, `ui`, `algorithm`, etc.). Maintainers will triage and follow up.
+
+## 🌟 Feature Requests
+
+1. Start a discussion or issue describing the problem you’re solving.
+2. Outline the proposed solution, alternatives, and any mockups/demos.
+3. Once agreed, follow the contribution workflow below.
+
 ## 🤝 Contributing
 
-We welcome improvements! Suggested contribution steps:
-
-1. **Fork** the repository & create a feature branch (`git checkout -b feature/your-idea`).
-2. **Install dependencies** *(optional GIF export)*:
+1. **Fork** the repository and clone your fork.
+2. Create a working branch:
+   ```bash
+   git checkout -b feature/your-idea
+   ```
+3. Install optional extras (for GIF demos):
    ```bash
    pip install pillow
    ```
-3. **Keep linting simple** – follow PEP 8 style; no additional tooling required.
-4. **Run manual smoke tests** – launch `python main.py`, exercise key paths, export JSON/GIF.
-5. **Submit a PR** describing the change, UI impacts, and testing performed.
+4. Implement and commit changes with clear messages referencing issues where possible.
+5. Manually test:
+   - `python main.py`
+   - Exercise editing, undo, zoom, compare algorithms
+   - Run JSON/GIF exports if affected
+6. Push your branch and open a Pull Request:
+   - Fill in the PR template (summary, screenshots/GIFs, tests).
+   - Link related issues (e.g. `Closes #123`).
+   - Stay responsive to review feedback.
 
 ### Ideas to Explore
 
 - Additional algorithms (e.g., Floyd–Warshall, bidirectional search).
-- Save/load custom graphs.
-- Theme packs or colorblind-friendly palettes.
-- Performance profiling overlays.
+- Save/load custom graphs and sharing map presets.
+- Theme packs, accessibility palettes, or localisation.
+- Performance profiling overlays or time-to-solution charts.
 
 ---
 
